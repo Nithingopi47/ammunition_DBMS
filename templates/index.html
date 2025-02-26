@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://png.pngtree.com/background/20231222/original/pngtree-intense-close-up-of-military-guns-against-cinematic-background-sophisticated-and-picture-image_6931800.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #495057;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 50px auto;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 30px;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 30px;
+            background-color: #007bff;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #007bff;
+            margin: 50px auto;
+            width: 80%;
+        }
+    </style>
+    <title>Main Page</title>
+</head>
+<body>
+    <div class="content">
+        <h1>WELCOME TO MILITARY AMMUNITION </h1>
+        <hr>
+        <ul>
+            <li><a href="/insert">New Ammunition</a></li>
+            <li><a href="/update">Update Ammunition</a></li>
+            <li><a href="/delete">Delete Ammunition</a></li>
+        </ul>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+        // Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyA4zkI2KdVC45rbZ9V8YxRt0sWNL5qhVis",
+            authDomain: "ammunition-af72f.firebaseapp.com",
+            databaseURL: "https://ammunition-af72f-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "ammunition-af72f",
+            storageBucket: "ammunition-af72f.appspot.com",
+            messagingSenderId: "399733772012",
+            appId: "1:399733772012:web:f53ab1903de43d01269fc9",
+            measurementId: "G-QJ30HXYXV7"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
